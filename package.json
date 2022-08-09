@@ -1,0 +1,18 @@
+{
+  "name": "cheerio-crawler",
+  "version": "1.0.0",
+  "description": "Build a crawler using cheerio",
+  "scripts": {
+    "start": "ts-node --files -r tsconfig-paths/register index.ts"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:prNguyenVietThai/cheerio-crawler.git",
+  "author": "prNguyenVietThai <thai.nguyenviet@prtimes.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.7.4"
+  }
+}
